@@ -239,7 +239,7 @@ p {
   width: 100%;
   height: 400px; /* or any desired height */
   background-image:  -webkit-image-set(url('../../images/kids_ballet_banner2.jpeg'));
-  background-image:  image-set(url('../../images/kids_ballet_banner2.jpeg'));
+  background-image: url('../../images/kids_ballet_banner2.jpeg');
   -webkit-filter: grayscale(80%); /* Safari */
   filter: grayscale(80%);
   background-repeat: no-repeat;
@@ -249,15 +249,13 @@ p {
 
 @media only screen and (max-width: 768px) {
   .kids-ballet-banner {
-    background-image:  -webkit-image-set(url('../../images/kids_ballet_banner2.jpeg'));
 
-      background-image:  image-set(url('../../images/kids_ballet_banner2.jpeg'));
+      background-image: url('../../images/kids_ballet_banner2.jpeg');
   }
 }
 
 @media only screen and (max-width: 480px) {
   .kids-ballet-banner {
-    background-image:  -webkit-image-set(url('../../images/kids_ballet_banner2.jpeg'));
 
       background-image:  image-set(url('../../images/kids_ballet_banner2.jpeg'));
   }
