@@ -252,12 +252,14 @@ p {
   }
   @media only screen and (max-width: 768px) {
     .yoga-banner {
-      background-image:  url('../../images/kids_ballet_banner2.jpeg');
+      background-image: image-set(url('../../images/banner_img3.jpeg') 1x);
+
     }
   }
   @media only screen and (max-width: 480px) {
     .yoga-banner {
-      background-image:  url('../../images/kids_ballet_banner2.jpeg');
+      background-image: image-set(url('../../images/banner_img3.jpeg') 1x);
+
 
     }
   }
