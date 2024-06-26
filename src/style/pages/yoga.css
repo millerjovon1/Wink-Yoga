@@ -601,7 +601,7 @@ p {
   @media only screen and (max-width: 768px) {
     .contatiner{
       max-width: 360px;
-      margin: 2%;
+      width: 100%;
 
     }
     }
@@ -609,7 +609,7 @@ p {
   @media only screen and (max-width: 480px) {
     .container {
       max-width: 360px;
-      margin: 2%;
+      width: 100%;
 
     }
   }
