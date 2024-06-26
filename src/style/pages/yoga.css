@@ -600,7 +600,7 @@ p {
   }
   @media only screen and (max-width: 768px) {
     .contatiner{
-      max-width: 360px;
+      max-width: 300px;
       width: 100%;
 
     }
