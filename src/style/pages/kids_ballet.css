@@ -249,14 +249,16 @@ p {
 
 @media only screen and (max-width: 768px) {
   .kids-ballet-banner {
-      background-image:  -webkit-image-set(url('../../images/kids_ballet_banner2.jpeg'));
+    background-image:  -webkit-image-set(url('../../images/kids_ballet_banner2.jpeg'));
+
       background-image:  image-set(url('../../images/kids_ballet_banner2.jpeg'));
   }
 }
 
 @media only screen and (max-width: 480px) {
   .kids-ballet-banner {
-      background-image:  -webkit-image-set(url('../../images/kids_ballet_banner2.jpeg'));
+    background-image:  -webkit-image-set(url('../../images/kids_ballet_banner2.jpeg'));
+
       background-image:  image-set(url('../../images/kids_ballet_banner2.jpeg'));
   }
 }
