@@ -33,7 +33,7 @@
   <div class="yoga-banner">
     <div class="yoga-title">
     <img src="./images/yink_banner.jpeg" alt="yink_banner" width="200px">
-  <h1>ヨガホイールクラス</h1>
+  <h1>Yoga Wheel Class</h1>
 </div>
 </div>
 <div class="main-container-yoga">
@@ -41,12 +41,14 @@
   <h2 class="border-bottom">ヨガホイールクラス</h2>
   <div class="yoga-about-info">
   <p>
-    ニューヨーク発祥のヨガホイールは、専用のホイールを使用してヨガのポーズを強化し、体の可動域を広げ、
-    コアを強化します。安全かつ効果的に脊椎をストレッチし、深呼吸を促します。肩の緊張を感じる方に理想的なヨガホイールメソッドは、
-    身体と心の緊張を和らげ、リラックス効果を提供します。
+    ニューヨーク発祥のヨガホイールは、専用のホイールを使用してヨガのポーズを補助し、体の可動域を広げ
+    コアを強化します。
+    <br>
+    余分な力を使わず安全かつ効果的に後屈を深めることができ胸も広がるため呼吸も深まります。
+    肩こりの方にもお勧めです。心と身体の緊張を緩め、自然とほぐれる快感を味わってください。
   </p>
   <br>
-  <p>柔軟性に関係なく、誰でも参加できるクラスで、各セッション最大10名までです。ホイールやマットを持参される方はいつでも参加可能です</p>
+  <p>柔軟性に関係なく、誰でも参加できるクラスで、各セッション最大10名までです。お子様連れもOKです！ホイールやマットを持参される方はいつでも参加可能です。</p>
 
 <h2 class="border-bottom">Instructor</h2>
 <div class="instructor-bio">
@@ -55,9 +57,9 @@
 <p>Yuka Matsushima</p>
 </div>
 <div class="yuka-yoga-bio">
-<p>クラシックバレエ、チアリーディング、バトン、ジャズヒップホップのバックグラウンドを持つ由香インストラクターは、
-  2018年にヨガに出会いました。ヨガホイールが提供する独特の可動域に魅了され、
-  2019年に資格を取得。神奈川を拠点に主にヨガホイールクラスを教えています。
+<p>クラシックバレエ、チアリーディング、バトン、jazzhiphopダンスの経験を経てヨガに出会う。
+  2018年にヨガホイールに出会い、これまでにない身体の可動域の広がりに魅了され、
+  2019年に資格を取得。主に神奈川県で活動している。
 </p>
 </div>
 
@@ -71,8 +73,14 @@
   <div class="class-list">
     <h3><b>木曜日クラス：</b></h3>
     <ul class="no-mp">
-      <li>毎週日曜日：10:00 - 11:00（7月から9月までは7:00 - 8:00）</li>
-      <li><b><h3>Location:</b></h3>
+      <li>毎週日曜日：10:00 - 11:00
+        <br>
+        （7月から9月までは7:00 - 8:00）</li>
+        <br>
+        ☔️雨天の場合は中止です。（詳細は <a href="https://www.instagram.com/wink.yuka_yogawheel?igsh=enFwZndydWxiNGx5&utm_source=qr">
+          <i class="fa-brands fa-instagram"></i></a>をチェック）
+
+      <li><b><h3>Place：</b></h3>
         <p> 茅ヶ崎ヘッドランドビーチデッキ</p></li>
       </ul>
         </div>
@@ -102,10 +110,9 @@
   <div class="class-list">
 <h3></h3>
 <ul class="tution">
-  <li><b>初回レッスン：</b>1,500円（ホイール込み</li>
+  <li><b>初回レッスン：</b>1,500円（ホイール込み）</li>
   <li><b>マットレンタル：</b>200円</li>
   <li><b>1セッション：</b>1,500円</li>
-  <li><b>小学1年生〜2年生：</b>7,500円</li>
   <li><b>追加レンタル：</b>ホイール300円、マット200円</li>
 </ul>
 </div>
@@ -127,24 +134,17 @@
 <div class="contact">
   <h2 class="border-bottom"></h2>
 <div class="container">
-  <h2 class="border-bottom">Schedule Lesson</h2>
-  <form action="action_page.php">
-    <label for="fname">First Name</label>
+  <h2 class="border-bottom">お問合せ</h2>
+  <form action="https://formspree.io/f/myzgygnq"
+  method="POST">
+    <label for="fname">名前</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
     <label for="email">Email</label>
     <input type="text" id="email" name="email" placeholder="john@sally.com">
+    <label for="subject">備考</label>
+    <textarea id="subject" name="subject" placeholder="ご質問等" style="height:200px"></textarea>
 
-    <label for="lesson">Sunday Lessons</label>
-    <select id="lesson" name="lesson">
-    <option value="毎週日曜日：10:00 - 11:00（7月から9月までは7:00 - 8:00）"></option>
-
-    </select>
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
+    <input type="submit" value="送信">
 
   </form>
 </div>

@@ -318,6 +318,7 @@ p {
 
   .border-bottom{
     border-bottom: 1px solid black;
+    width: 100%;
   }
 
   .yuka-profile {

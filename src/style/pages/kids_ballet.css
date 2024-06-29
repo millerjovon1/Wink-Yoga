@@ -336,9 +336,7 @@ p {
   }
 }
 
-.border-bottom{
-  border-bottom: 1px solid black;
-}
+
 
 @media only screen and (max-width: 768px) {
   .kids-ballet-about-info {
@@ -387,11 +385,15 @@ p {
       align-items: center;
   }
 }
-
+.border-bottom{
+  border-bottom: 1px solid black;
+  width: 100%;
+}
 .kids-ballet-instructor-bio {
   display: -webkit-box; /* Safari */
   display: -ms-flexbox; /* IE 10 */
   display: flex;
+  flex-direction: column;
   -webkit-box-pack: space-evenly; /* Safari */
   -ms-flex-pack: space-evenly; /* IE 10 */
   justify-content: space-evenly;
