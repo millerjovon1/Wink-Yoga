@@ -55,6 +55,9 @@ body {
   height: 100px;
   margin-bottom: 2%;
 }
+.border-radius{
+  border-radius: 50%;
+}
 
 /* Base Styles */
 a {
