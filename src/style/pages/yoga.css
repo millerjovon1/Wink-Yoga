@@ -291,17 +291,23 @@ p {
   }
   @media only screen and (max-width: 768px) {
     .main-container-yoga {
-        max-width: 400px;  /* Apply margin as needed */
-        width: 100%;
-        margin: 0px;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 400px;  /* Apply margin as needed */
+      width: 100%;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .main-container-yoga{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       max-width: 400px;  /* Apply margin as needed */
       width: 100%;
-      margin: 0px;
     }
 }
 
@@ -315,14 +321,15 @@ p {
     flex-direction: column;        /* Standard flex-direction property */
     -webkit-box-pack: center;  /* Vendor prefix for older WebKit browsers */
     -ms-flex-pack: center;      /* Vendor prefix for IE 10 */
-    justify-content: center;   /* Standard justify-content property */
+    justify-content: center;
+    align-items: center;
+    -webkit-box-align: center; /* Standard justify-content property */
 }
 
 @media only screen and (max-width: 768px) {
     .yoga-about {
         max-width: 360px;
         width: 100%;
-        align-items: center;
     }
 }
 
@@ -330,7 +337,6 @@ p {
     .yoga-about {
         max-width: 360px;
         width: 100%;
-        align-items: center;
     }
 }
 
