@@ -303,6 +303,27 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+@media only screen and (max-width: 768px) {
+  .main-container-kids-ballet{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 400px;  /* Apply margin as needed */
+      width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main-container-kids-ballet{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 400px;  /* Apply margin as needed */
+      width: 100%;
+  }
+}
 
 .kids-ballet-about {
   display: -webkit-box; /* Safari */
@@ -322,6 +343,8 @@ p {
 
 @media only screen and (max-width: 768px) {
   .kids-ballet-about {
+      max-width: 360px;
+      width: 100%;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -330,6 +353,8 @@ p {
 
 @media only screen and (max-width: 480px) {
   .kids-ballet-about {
+      max-width: 360px;
+      width: 100%;
       flex-direction: column;
       justify-content: center;
       align-items: center;
