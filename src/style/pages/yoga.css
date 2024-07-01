@@ -289,7 +289,21 @@ p {
     width: 100%;
     margin: 0 auto;
   }
+  @media only screen and (max-width: 768px) {
+    .main-container-yoga {
+        max-width: 400px;  /* Apply margin as needed */
+        width: 100%;
+        margin: 0px;
+    }
+}
 
+@media only screen and (max-width: 480px) {
+    .main-container-yoga{
+      max-width: 400px;  /* Apply margin as needed */
+      width: 100%;
+      margin: 0px;
+    }
+}
 
   .yoga-about {
     display: -webkit-box;  /* Vendor prefix for older WebKit browsers */
@@ -306,13 +320,17 @@ p {
 
 @media only screen and (max-width: 768px) {
     .yoga-about {
-        margin: 2%;  /* Apply margin as needed */
+        max-width: 360px;
+        width: 100%;
+        align-items: center;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .yoga-about {
-        margin: 2%;  /* Apply margin as needed */
+        max-width: 360px;
+        width: 100%;
+        align-items: center;
     }
 }
 
@@ -375,7 +393,7 @@ p {
 
 @media only screen and (max-width: 768px) {
   .instructor-bio {
-      max-width: 400px;
+      max-width: 360px;
       width: 100%;
       -webkit-box-orient: vertical;  /* Vendor prefix for older WebKit browsers */
       -webkit-box-direction: normal; /* Vendor prefix for older WebKit browsers */
@@ -386,7 +404,7 @@ p {
 
 @media only screen and (max-width: 480px) {
   .instructor-bio {
-      max-width: 400px;
+      max-width: 360px;
       width: 100%;
       -webkit-box-orient: vertical;  /* Vendor prefix for older WebKit browsers */
       -webkit-box-direction: normal; /* Vendor prefix for older WebKit browsers */
@@ -420,20 +438,47 @@ p {
     max-width: 600px;
     width: 100%;
   }
+  @media only screen and (max-width: 768px) {
+    .instructor-info {
+        max-width: 360px;  /* Example max-width adjustment for smaller screens */
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .instructor-info {
+        max-width: 360px;  /* Example max-width adjustment for even smaller screens */
+        width: 100%;
+    }
+  }
 .yuka-yoga-bio{
   max-width: 400px;
   width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .yuka-yoga-bio {
+      max-width: 360px;  /* Example max-width adjustment for smaller screens */
+      width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .yuka-yoga-bio {
+      max-width: 360px;  /* Example max-width adjustment for even smaller screens */
+      width: 100%;
+  }
 }
 .lesson-location-section {
   max-width: 800px;
   width: 100%;
   display: flex;
+  justify-content: space-around;
   margin: 0 auto;
 }
 
 @media only screen and (max-width: 768px) {
   .lesson-location-section {
-      max-width: 400px;
+      max-width: 360px;
       width: 100%;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -445,12 +490,13 @@ p {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
+      margin: 0px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .lesson-location-section {
-      max-width: 400px;
+      max-width: 360px;
       width: 100%;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -462,6 +508,7 @@ p {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
+      margin: 0px;
   }
 }
 
@@ -489,6 +536,52 @@ p {
   flex-direction: column;
   justify-content: center;
   list-style-type: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .class-list {
+      max-width: 360px;  /* Example max-width adjustment for smaller screens */
+      width: 100%;
+      margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .class-list {
+      max-width: 360px;  /* Example max-width adjustment for even smaller screens */
+      width: 100%;
+      margin: 0px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .essentials{
+      max-width: 360px;  /* Example max-width adjustment for smaller screens */
+      width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .essentials {
+      max-width: 360px;  /* Example max-width adjustment for even smaller screens */
+      width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contact{
+      max-width: 360px;  /* Example max-width adjustment for smaller screens */
+      width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contact {
+      max-width: 360px;  /* Example max-width adjustment for even smaller screens */
+      width: 100%;
+  }
 }
 
 
@@ -524,6 +617,8 @@ p {
       -ms-flex-pack: center;
       justify-content: center;
       margin: 2%;
+      max-width: 360px;
+      width: 100%;
     }
   }
 
@@ -540,6 +635,8 @@ p {
       -ms-flex-pack: center;
       justify-content: center;
       margin: 2%;
+      max-width: 360px;
+      width: 100%;
     }
   }
 

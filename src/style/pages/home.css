@@ -347,6 +347,10 @@ p {
       background-size: cover;         /* NEW - Spec */
     }
   }
+  .border-top{
+    border-top: 1px solid black;
+    width: 100%;
+  }
 
 
 .main-container {
